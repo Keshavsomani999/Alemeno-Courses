@@ -1,0 +1,5 @@
+Run application
+
+
+npm run dev - for backend from base location
+npm run start - frontend from /frontend/app

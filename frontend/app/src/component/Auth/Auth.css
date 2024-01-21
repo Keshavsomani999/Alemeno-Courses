@@ -1,0 +1,86 @@
+.LoginBody{
+    font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Logincontainer {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Login-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #333;
+  }
+  
+  .tab button {
+    padding: 15px;
+    color: #000000; /* Text color for inactive tabs */
+    flex: 1;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .tab button:hover {
+    background-color: #555;
+  }
+  
+  .tab button.active {
+    background-color: #555; /* Background color for active tab */
+    color: #fff; /* Text color for active tab */
+  }
+  .Loginform {
+    padding: 20px;
+  }
+  
+  .Loginform h2 {
+    text-align: center;
+  }
+  
+  .Loginform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .Loginform button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .Loginform button:hover {
+    background-color: #555;
+  }
+  
